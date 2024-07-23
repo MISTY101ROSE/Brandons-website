@@ -1,0 +1,126 @@
+header {
+    background: #202E54;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: static;
+    bottom: 10px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: none;
+    height: 20px;
+    margin:20px;
+    padding: 0 0px;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: initial;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.contact-method {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.email {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.property-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.top-right-corner {
+    margin-inline-end: 15px;
+    margin-inline-start: 15px;
+    padding-inline-start: 0px;
+    padding-inline-end: 70px;
+    padding-block-end: 15px;
+    max-width: none;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    position: static;
+    inset-block-start: 0;
+    width: auto;
+    overflow: visible;
+    animation: none !important;
+}
+
+nav ul {
+    list-style: none;
+    margin: -35px;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #F8481C;
+}
+
+
+footer {
+    background: #202E54;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+    position: static;
+    bottom: 50px;
+    width: 100%;
+}
